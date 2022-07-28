@@ -220,18 +220,44 @@ nav {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 32px;
+    justify-content: center;
 }
 
 .features__item {
     padding: 32px 8px;
     margin: 0 16px;
-    width: calc(100% / 3);
+    width: calc(100% / 3.5);
     display: flex;
 }
 
 .text__container {
     margin-top: 8px;
     margin-left: 16px;
+}
+
+.item__title {
+    font-size: 24px;
+    color: #243e63;
+    font-weight: 700;
+}
+
+.item__description {
+    margin-top: 16px;
+    text-align: left;
+    color: #7c8ba1;
+    line-height: 2;
+    font-weight: 500;
+
+}
+
+.img__container {
+    border: #e5e7eb 1px solid;
+    border-radius: 100%;
+    height: fit-content;
+}
+
+.item__img {
+    padding: 20px;
 }
 
 
