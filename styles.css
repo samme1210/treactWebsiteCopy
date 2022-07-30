@@ -80,6 +80,14 @@ input:focus {
     font-weight: 700;
 }
 
+.section__title {
+    text-align: left;
+    font-weight: 900;
+    font-size: 36px;
+    max-width: 300px;
+    margin-top: 16px;
+}
+
 .highlighted__text {
     color: #7342d6;
 }
@@ -280,18 +288,6 @@ nav {
     width: 35%;
 }
 
-.qualityWork__title {
-    text-align: left;
-    font-weight: 900;
-    font-size: 36px;
-    max-width: 300px;
-    margin-top: 16px;
-}
-
-.img__wrapper--qualityWork {
-    width: 55%;
-}
-
 .qualityWork__para {
     margin-top: 16px;
     color: #7c8ba1;
@@ -302,9 +298,23 @@ nav {
     margin-top: 32px;
 }
 
+.img__wrapper--qualityWork {
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
 
+.qualityWork__img {
+    width: 460px;
+    border: #e5e7eb solid 1px;
+    border-radius: 4px;
+}
 
+/* steps */
 
+.steps__wrapper {
+    display: flex;
+}
 
 
 
