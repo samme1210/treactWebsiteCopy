@@ -207,23 +207,27 @@ nav {
 
 /* features */
 
-.features__description--container {
+.features__description--container,
+.pricing__description--container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.features__subtitle {
+.features__subtitle,
+.pricing__subtitle {
     margin-bottom: 16px;
     font-size: 20px;
 }
 
-.features__title {
+.features__title,
+.pricing__title {
     width: 100%;
     text-align: center;
 } 
 
-.features__para {
+.features__para,
+.pricing__para {
     margin-top: 16px;
     text-align: center;
     width: 100%;
@@ -456,4 +460,34 @@ nav {
     display: flex;
     align-items: center;
     width: 60%;
+}
+
+/* pricing */
+
+.pricing__item--container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pricing__item-1,
+.pricing__item-2,
+.pricing__item-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3.5);
+    padding: 8px 32px;
+    border-radius: 10px;
+}
+
+.pricing__item-1 {
+    margin-top: 72px;
+    margin-right: 32px;
+}
+
+.pricing__item--header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
